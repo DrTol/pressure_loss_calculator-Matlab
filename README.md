@@ -16,7 +16,7 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
 
 # How2Use
 Example scripts are given to illustrate how to use the tools developed. 
-1) [examplePressureLoss.m](pressure_loss_calculator-Matlab/examplePressureLoss.m): shows how to use the Pressure Loss Calculator - 
+1) [examplePressureLoss.m](docs/examplePressureLoss.m): shows how to use the Pressure Loss Calculator - 
 
 Contributing: Describe how other developers can help
 
