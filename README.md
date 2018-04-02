@@ -9,7 +9,7 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
 - Aside from the main Matlab tool, two other converter tools are also given to obtain the Hazen-Williams roughness coefficient *C*, one from the absolute roughness of the pipe (also known as ε - eps) and the other from the Darcy-Weisbach friction factor *f*, SO maintaining a nonsteady *C*.
 - The limitations for use of equations and algorithms are given in the code (e.g. the operational limitations in using Hazen-Williams).
 
-# Table of Contents
+## Table of Contents
   - [Usage](#Usage)
   - [References](#References)
 
