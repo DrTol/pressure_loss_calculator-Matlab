@@ -10,8 +10,8 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
 - The limitations for use of equations and algorithms are given in the code (e.g. the operational limitations in using Hazen-Williams).
 
 # Table of Contents
-- [Usage](#Usage)
-- [References](#References)
+  - [Usage](#Usage)
+  - [References](#References)
 
 # Usage
 : Describe how to use the matlab files
