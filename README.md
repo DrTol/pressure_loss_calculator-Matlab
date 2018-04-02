@@ -11,6 +11,7 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
 
 # Table of Contents
 - [Usage](#Usage)
+- [References](#References)
 
 # Usage
 : Describe how to use the matlab files
