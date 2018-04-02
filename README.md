@@ -6,7 +6,7 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
 ## Features
 - This Matlab tool has the options in selecting the solver type through the equations either by 'Darcy-Weisbach' or by 'Hazen-Williams'. 
 - Besides, another feature in the tool options allows users to select through various algorithms to calculate the Darcy-Weisbach friction coefficient *f*, limited to algorithms by 'Moody', 'Colebrook-White', 'Clamond', 'Swamee-Jain', 'Zigrang-Sylvester', and 'Haaland'. 
-- Aside from the main Matlab tool, two other converter tools are also given to obtain the Hazen-Williams roughness coefficient *C*, as a non-steady variable, as a function of (i) the absolute roughness of the pipe (also known as ε - eps) and (ii) the Darcy-Weisbach friction factor *f*.
+- Aside from the main Matlab tool, two other converter tools are also given to obtain the Hazen-Williams roughness coefficient *C* as a non-steady variable by a function of (i) the absolute roughness of the pipe (also known as ε - eps) and (ii) the Darcy-Weisbach friction factor *f*.
 - The limitations for use of equations and algorithms are given in the code (e.g. the operational limitations in using Hazen-Williams).
 
 ## Table of Contents
