@@ -20,6 +20,10 @@ Contributing: Describe how other developers can help
 Credits
 License
 Acknowledgement: XSteam, Clamond, Matlab forum sites
-How2Cite: 
+# How2Cite:
+Please cite as: Tol, Hİ. pressure_loss_calculator-Matlab. GitHub Repository 2018; https://github.com/DrTol/pressure_loss_calculator-Matlab/
 
-References
+# References
+
+- Sanks RL. Flow in conduits. In: Sanks RL, Tchobanoglous G, Bosserman BE, Jones GM, editors. Pumping station design. Boston, USA: Butterworth-Heinemann; 1998. p. 33-39.
+- Clamond D. Efficient resolution of the colebrook equation. Industrial & Engineering Chemistry Research 2009;48:3665-3671
