@@ -1,5 +1,5 @@
 # Pressure Loss Calculator Tool - Matlab
-A Matlab tool calculating the friction pressure loss in circular pipes with full flow water. 
+A Matlab tool calculating the friction pressure loss in circular pipes with full flow water, useful to compare different solver types or friction factor algorithms (details given in [Features](#Features). 
 
 ## Features
 - This Matlab tool has the options in selecting the solver type through the equations either by 'Darcy-Weisbach' or by 'Hazen-Williams'. 
