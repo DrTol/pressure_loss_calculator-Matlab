@@ -10,7 +10,7 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
 - The limitations for use of equations and algorithms are given in the code (e.g. the operational limitations in using Hazen-Williams).
 
 ## Table of Contents
-  - [Usage](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#How2Use)
+  - [How2Use](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#How2Use)
   - [How2Cite](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2cite)
   - [References](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#references)
 
