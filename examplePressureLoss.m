@@ -1,12 +1,15 @@
-%% Example_Single - based for a given data
+%% Example_PressureLossCalculator (SI Units)
+%   This script shows how to use the Matlab tool "Pressure loss calculator"
+%  by Tol,Hakan Ibrahim from the PhD study at Technical University of Denmark 
+%   PhD Topic: District Heating in Areas with Low-Energy Houses
 
 %% Given Data
 L=66;           % The length of the pipe segment                    [m]
 mFlow=4.09;     % Mass flow of water                                [kg/s]
 Din=70.3;       % Pipe inner diameter                               [mm]
 aRou=0.1;       % Absolute roughness                                [mm]
-T_DW=90;        % Water temperature for Darch-Weisbach equation     [°C] 
-T_HW=10;        % Water temperature for Hazen-Williams equation     [°C]
+T_DW=90;        % Water temperature for Darch-Weisbach equation     [Â°C] 
+T_HW=10;        % Water temperature for Hazen-Williams equation     [Â°C]
 
 
 %% Fasten your seat belts, the code is running!
