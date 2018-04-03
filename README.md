@@ -9,7 +9,7 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
     - [How2Use the Pressure Loss Calculator Tool](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2use-the-pressure-loss-calculator-tool)
     - [How2Use the Converter Tools](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2use-the-converter-tools)
     - [Darcy-Weisbach Friction Factor Functions](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#darcy-weisbach-friction-factor-functions)
-    - [Other Matlab File in Use](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#other-matlab-file-in-use)
+    - [Other Matlab Files in Use](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#other-matlab-files-in-use)
   - [License](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#license)
   - [Acknowledgement](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#acknowledgement)
   - [How2Cite](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2cite)
@@ -42,7 +42,7 @@ Various Matlab functions can be found for various algorithms, details given belo
 - [f_SwameeJain.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_SwameeJain.m): Another explicit approximation by Swamee P&Jain A.
 - [f_ZigrangSylvester.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_ZigrangSylvester.m): Another explicit approximation by Zigrang DJ&Sylvester ND.
    
-### Other Matlab File in Use
+### Other Matlab Files in Use
 - [XSteam.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/XSteam.m): Matlab tool used to obtain the thermodynamic properties of water in calculations. This original work is taken from [Holmgren M. MathWorks File Exchange: XSteam.m (link)](https://nl.mathworks.com/matlabcentral/fileexchange/9817-x-steam--thermodynamic-properties-of-water-and-steam). 
 - [f_Clamond.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Clamond.m): This original work is taken from [Clamond D. Mathworks File Exchange: colebrook.m (link)](https://nl.mathworks.com/matlabcentral/fileexchange/21990-colebrook-m?focused=5105324&tab=function).
 
