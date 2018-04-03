@@ -4,8 +4,9 @@ A Matlab tool calculating the friction pressure loss (head loss) in circular pip
 This Matlab tool is a by-product from the PhD study about the 4th generation (4G) low-temperature district heating systems in supply to low-energy houses, carried out by Hakan İbrahim Tol, PhD under the supervision of Prof. Dr. Svend Svendsen and Ass. Prof. Susanne Balslev Nielsen at the Technical University of Denmark (DTU). The PhD topic: "District heating in areas with low energy houses - Detailed analysis of district heating systems based on low temperature operation and use of renewable energy" - [free download by DTU (link)](http://orbit.dtu.dk/en/publications/district-heating-in-areas-with-low-energy-houses(9c056db5-8e76-425f-92ca-c072b642b6b3).html) or [by ResearchGate (link)](https://www.researchgate.net/publication/276266953_District_heating_in_areas_with_low_energy_houses_-_Detailed_analysis_of_district_heating_systems_based_on_low_temperature_operation_and_use_of_renewable_energy).
 
 ## Table of Contents
+  - [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)
   - [Usage](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#usage)
-    - [How2Use the Pressure loss Calculator Tool](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2use-the-pressure-loss-calculator-tool)
+    - [How2Use the Pressure Loss Calculator Tool](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2use-the-pressure-loss-calculator-tool)
     - [How2Use the Converter Tools](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2use-the-converter-tools)
     - [Darcy-Weisbach Friction Factor Functions](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#darcy-weisbach-friction-factor-functions)
     - [Other Matlab File in Use](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#other-matlab-file-in-use)
