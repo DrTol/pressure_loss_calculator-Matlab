@@ -17,17 +17,18 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
   - [References](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#references)
 
 # Usage
-## Example Scripts - How2Use the Matlab Tools
-Example scripts are given to illustrate how to use the tools developed. 
+Example scripts are given to illustrate how to use the Matlab tools developed. 
 
+### How2Use the Pressure Loss Calculator Tool
 1. [examplePressureLoss.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/examplePressureLoss.m): shows how to use the main Matlab tool [PressureLossCalculator.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/PressureLossCalculator.m) with a given data for a pipe segment with different combinations of the solver and the Darcy-Weisbach friction factor algorithms (details given in [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)).
 
+### How2Use the Converter Tools
 2. [exampleRougnessConverters.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/exampleRougnessConverters.m): shows how to use the Matlab converter tools with bi-directional examples of use (e.g. conversion of relative pipe roughness (eps/D) to Hazen-Wiliams rougness coefficient (C) as well as conversion from C to eps/D). There are two converter tools: 
 
    - [tConverterDW2HW.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/tConverterDW2HW.m): Bi-directional converter between the Hazen-Williams roughness coefficient (C) and the Darcy-Weisbach friction factor (f). 
    - [tConverterRoughness.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/tConverterRoughness.m): Bi-directional converter between the pipe relative roughness (eps/D) and the Hazen-Williams roughness coefficient (C).
 
-## Darcy-WeisbachFrictionFactors
+### Darcy-Weisbach Friction Factor Functions
 3. Various Matlab functions can be found for various algorithms, details given below. How2Use each of them can be found in the last section (within switch-case there) of the [PressureLossCalculator.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/PressureLossCalculator.m). 
    - [f_Moody.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Moody.m): as based on Moody correlation.
    - [f_ColebrookWhite.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_ColebrookWhite.m): Iterative solution of the implicit Colebrook's friction factor expression.
@@ -36,8 +37,7 @@ Example scripts are given to illustrate how to use the tools developed.
    - [f_SwameeJain.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_SwameeJain.m): Another explicit approximation by Swamee P&Jain A.
    - [f_ZigrangSylvester.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_ZigrangSylvester.m): Another explicit approximation by Zigrang DJ&Sylvester ND.
    
-## Other Matlab File in Use
-
+### Other Matlab File in Use
 4. [XSteam.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/XSteam.m): Matlab tool used to obtain the thermodynamic properties of water in calculations. This original work is taken from [Holmgren M. MathWorks File Exchange: XSteam.m (link)](https://nl.mathworks.com/matlabcentral/fileexchange/9817-x-steam--thermodynamic-properties-of-water-and-steam). 
 
 # License
