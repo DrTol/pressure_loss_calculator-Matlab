@@ -53,4 +53,5 @@ This repository *pressure_loss_calculator-Matlab* makes use of other original op
 - Liou CP. Limitations and proper use of the Hazen-Williams equation. Journal of Hydraulic Engineering 1998; 124(9): p. 951-954.
 - Colebrook CF. & White CM. Experiments with fluid friction in roughened pipes. Proceedings of the Royal Society A - Mathematical, Physical & Engineering Sciences 1937; p. 367-381.
 - Asker M.,Turgut OE.& Coban MT. A review of non iterative friction factor correlations for the calculation of pressure drop in pipes. Bitlis Eren Univ J Sci & Technol 2014; 4(1): 8 p. 
-- Genić S.,Arandjelović I.,Kolendić P.,Jarić M.,Budimir N.&Genić M. A Review of explicit approximations of Colebrook’s equation. FME Transactions 2011; 39: p. 67-71.  
+- Genić S.,Arandjelović I.,Kolendić P.,Jarić M.,Budimir N.&Genić M. A Review of explicit approximations of Colebrook’s equation. FME Transactions 2011; 39: p. 67-71. 
+Holmgren M., X Steam, Thermodynamic properties of water and steam (v1.0). MathWorks File Exchange: https://nl.mathworks.com/matlabcentral/fileexchange/9817-x-steam--thermodynamic-properties-of-water-and-steam
