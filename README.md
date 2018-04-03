@@ -20,8 +20,14 @@ Example scripts are given to illustrate how to use the tools developed.
 2. [exampleRougnessConverters.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/exampleRougnessConverters.m): shows how to use the Matlab converter tools with bi-directional examples of use (e.g. conversion of relative pipe roughness (eps/D) to Hazen-Wiliams rougness coefficient (C) as well as conversion from C to eps/D). There are two converter tools: 
    - [tConverterDW2HW.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/tConverterDW2HW.m): Bi-directional converter between the Hazen-Williams roughness coefficient (C) and the Darcy-Weisbach friction factor (f). 
    - [tConverterRoughness.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/tConverterRoughness.m): Bi-directional converter between the pipe relative roughness (eps/D) to Hazen-Williams roughness coefficient (C).
-3. **Darcy-WeisbachFrictionFactors**: 
-   - sdf
+3. **Darcy-WeisbachFrictionFactors**: Various Matlab functions can be found for various algorithms, details given below. How2Use each of them can be found in the last section (within switch-case there) of the [PressureLossCalculator.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/PressureLossCalculator.m). 
+   - [f_Moody.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Moody.m): as based on Moody correlation.
+   - [f_ColebrookWhite.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_ColebrookWhite.m): Iterative solution of the implicit Colebrook's friction factor expression.
+   - [f_Clamond.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Clamond.m): Explicit approximation of the Colebrook's friction factor expression by Clamond D. 
+   - [f_Haaland.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Haaland.m): Explicit approximation of the Colebrook's friction factor expression by Haaland SE. 
+   - [f_SwameeJain.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_SwameeJain.m): Explicit approximation of the Colebrook's friction factor expression by Swamee P&Jain A.
+   - [f_ZigrangSylvester.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_ZigrangSylvester.m): Explicit approximation of the Colebrook's friction factor expression by Zigrang DJ&Sylvester ND.
+   
 
 # Contributing 
 Describe how other developers can help
@@ -41,4 +47,5 @@ Tol, Hİ. District heating in areas with low energy houses - Detailed analysis o
 - Diskin MH. The limits of applicability of the Hazen-Williams formula. La Houille Blanche 1960;6: p. 720-726.
 - Liou CP. Limitations and proper use of the Hazen-Williams equation. Journal of Hydraulic Engineering 1998; 124(9): p. 951-954.
 - Colebrook CF. & White CM. Experiments with fluid friction in roughened pipes. Proceedings of the Royal Society A - Mathematical, Physical & Engineering Sciences 1937; p. 367-381.
-- Asker M.,Turgut OE., & Coban MT. A review of non iterative friction factor correlations for the calculation of pressure drop in pipes. Bitlis Eren Univ J Sci & Technol 2014; 4(1): 8 p. 
+- Asker M.,Turgut OE.& Coban MT. A review of non iterative friction factor correlations for the calculation of pressure drop in pipes. Bitlis Eren Univ J Sci & Technol 2014; 4(1): 8 p. 
+- Genić S.,Arandjelović I.,Kolendić P.,Jarić M.,Budimir N.&Genić M. A Review of explicit approximations of Colebrook’s equation. FME Transactions 2011; 39: p. 67-71.  
