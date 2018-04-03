@@ -1,5 +1,5 @@
-# Pressure Loss Calculator Tool - Matlab (DRAFT)
-A Matlab tool calculating the friction pressure loss in circular pipes with full flow water, as well useful to compare different solver types or friction factor algorithms (details given in [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)). 
+# Pressure Loss Calculator Tool - Matlab (SI Units)
+A Matlab tool calculating the friction pressure loss (head loss) in circular pipes with full flow water, as well useful to compare different solver types or friction factor algorithms (details given in [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)). 
 
 This Matlab tool is a by-product from the PhD study about the 4th generation (4G) low-temperature district heating systems in supply to low-energy houses, carried out by Hakan İbrahim Tol, PhD under the supervision of Prof. Dr. Svend Svendsen and Ass. Prof. Susanne Balslev Nielsen at the Technical University of Denmark (DTU). The PhD topic: "District heating in areas with low energy houses - Detailed analysis of district heating systems based on low temperature operation and use of renewable energy" - [free download by DTU (link)](http://orbit.dtu.dk/en/publications/district-heating-in-areas-with-low-energy-houses(9c056db5-8e76-425f-92ca-c072b642b6b3).html) or [by ResearchGate (link)](https://www.researchgate.net/publication/276266953_District_heating_in_areas_with_low_energy_houses_-_Detailed_analysis_of_district_heating_systems_based_on_low_temperature_operation_and_use_of_renewable_energy).
 
@@ -14,20 +14,26 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
   - [How2Cite](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2cite)
   - [References](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#references)
 
+# Methods
+
+
 # How2Use
 Example scripts are given to illustrate how to use the tools developed. 
--  [examplePressureLoss.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/examplePressureLoss.m): shows how to use the Pressure Loss Calculator - 
+-  [examplePressureLoss.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/examplePressureLoss.m): shows how to use the main Matlab tool **PressureLossCalculator.m** with a given data for a pipe segment with different combinations of the solver and the Darcy-Weisbach friction factor algorithms in question. 
 
-Contributing: Describe how other developers can help
+# Contributing 
+Describe how other developers can help
 
-Credits
-License
-Acknowledgement: XSteam, Clamond, Matlab forum sites
+# Credits
+# License
+# Acknowledgement 
+XSteam, Clamond, Matlab forum sites
+
 # How2Cite:
-Please cite as: Tol, Hİ. pressure_loss_calculator-Matlab. GitHub Repository 2018; https://github.com/DrTol/pressure_loss_calculator-Matlab/
+Tol, Hİ. pressure_loss_calculator-Matlab. GitHub Repository 2018; https://github.com/DrTol/pressure_loss_calculator-Matlab/
+Tol, Hİ. District heating in areas with low energy houses - Detailed analysis of district heating systems based on low temperature operation and use of renewable energy. PhD Supervisors: Svendsen S. & Nielsen SB. Technical University of Denmark 2015; 204 p. ISBN: 9788778773685.
 
 # References
-
 - Sanks RL. Flow in conduits. In: Sanks RL, Tchobanoglous G, Bosserman BE, Jones GM, editors. Pumping station design. Boston, USA: Butterworth-Heinemann; 1998. p. 33-39.
 - Clamond D. Efficient resolution of the colebrook equation. Industrial & Engineering Chemistry Research 2009;48: p. 3665-3671.
 - Diskin MH. The limits of applicability of the Hazen-Williams formula. La Houille Blanche 1960;6: p. 720-726.
