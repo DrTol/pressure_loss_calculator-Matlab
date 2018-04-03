@@ -11,6 +11,8 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
 
 ## Table of Contents
   - [How2Use](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#How2Use)
+  - [License](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#License)
+  - [Acknowledgement](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#Acknowledgement)
   - [How2Cite](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2cite)
   - [References](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#references)
 
