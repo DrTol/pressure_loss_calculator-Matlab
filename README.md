@@ -19,7 +19,8 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
 
 # How2Use
 Example scripts are given to illustrate how to use the tools developed. 
--  [examplePressureLoss.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/examplePressureLoss.m): shows how to use the main Matlab tool **PressureLossCalculator.m** with a given data for a pipe segment with different combinations of the solver and the Darcy-Weisbach friction factor algorithms in question. 
+-  [examplePressureLoss.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/examplePressureLoss.m): shows how to use the main Matlab tool **PressureLossCalculator.m** with a given data for a pipe segment with different combinations of the solver and the Darcy-Weisbach friction factor algorithms (details given in [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)). 
+
 
 # Contributing 
 Describe how other developers can help
