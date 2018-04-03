@@ -10,13 +10,13 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
 - The limitations for use of equations and algorithms are given in the code (e.g. the operational limitations in using Hazen-Williams).
 
 ## Table of Contents
-  - [How2Use](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#How2Use)
+  - [Usage](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#Usage)
   - [License](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#License)
   - [Acknowledgement](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#Acknowledgement)
   - [How2Cite](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2cite)
   - [References](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#references)
 
-# How2Use
+# Usage
 Example scripts are given to illustrate how to use the tools developed. 
 1. [examplePressureLoss.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/examplePressureLoss.m): shows how to use the main Matlab tool [PressureLossCalculator.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/PressureLossCalculator.m) with a given data for a pipe segment with different combinations of the solver and the Darcy-Weisbach friction factor algorithms (details given in [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)).
 2. [exampleRougnessConverters.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/exampleRougnessConverters.m): shows how to use the Matlab converter tools with bi-directional examples of use (e.g. conversion of relative pipe roughness (eps/D) to Hazen-Wiliams rougness coefficient (C) as well as conversion from C to eps/D). There are two converter tools: 
@@ -30,9 +30,6 @@ Example scripts are given to illustrate how to use the tools developed.
    - [f_SwameeJain.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_SwameeJain.m): Another explicit approximation by Swamee P&Jain A.
    - [f_ZigrangSylvester.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_ZigrangSylvester.m): Another explicit approximation by Zigrang DJ&Sylvester ND.
 4. [XSteam.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/XSteam.m): Matlab tool used to obtain the thermodynamic properties of water in calculations. This original work is taken from [Holmgren M. MathWorks File Exchange: XSteam.m (link)](https://nl.mathworks.com/matlabcentral/fileexchange/9817-x-steam--thermodynamic-properties-of-water-and-steam). 
-
-# Contributing 
-Describe how other developers can help
 
 # License
 You are free to use, modify and distribute the code as long as authorship is properly acknowledged. The same applies for the original works 'XSteam.m' by Holmgren M. and 'colebrook.m' by Clamond D.
