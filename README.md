@@ -3,12 +3,6 @@ A Matlab tool calculating the friction pressure loss (head loss) in circular pip
 
 This Matlab tool is a by-product from the PhD study about the 4th generation (4G) low-temperature district heating systems in supply to low-energy houses, carried out by Hakan İbrahim Tol, PhD under the supervision of Prof. Dr. Svend Svendsen and Ass. Prof. Susanne Balslev Nielsen at the Technical University of Denmark (DTU). The PhD topic: "District heating in areas with low energy houses - Detailed analysis of district heating systems based on low temperature operation and use of renewable energy" - [free download by DTU (link)](http://orbit.dtu.dk/en/publications/district-heating-in-areas-with-low-energy-houses(9c056db5-8e76-425f-92ca-c072b642b6b3).html) or [by ResearchGate (link)](https://www.researchgate.net/publication/276266953_District_heating_in_areas_with_low_energy_houses_-_Detailed_analysis_of_district_heating_systems_based_on_low_temperature_operation_and_use_of_renewable_energy).
 
-## Features
-- This Matlab tool has the options in selecting the solver type through the equations either by 'Darcy-Weisbach' or by 'Hazen-Williams'. 
-- Besides, another feature in the tool options allows users to select through various algorithms to calculate the Darcy-Weisbach friction coefficient *f*, limited to algorithms by 'Moody', 'Colebrook-White', 'Clamond', 'Swamee-Jain', 'Zigrang-Sylvester', and 'Haaland'. Other algorithms can be found in another repository [mariocastrogama/Colebrook-White](https://github.com/mariocastrogama/Colebrook-White)!
-- Aside from the main Matlab tool, two other converter tools are also given to obtain the Hazen-Williams roughness coefficient *C* as a non-steady variable by a function of (i) the absolute roughness of the pipe (also known as ε - eps) and (ii) the Darcy-Weisbach friction factor *f*.
-- The limitations for use of equations and algorithms are given in the code (e.g. the operational limitations in using Hazen-Williams).
-
 ## Table of Contents
   - [Usage](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#usage)
     - [How2Use the Pressure loss Calculator Tool](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2use-the-pressure-loss-calculator-tool)
@@ -20,7 +14,13 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
   - [How2Cite](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2cite)
   - [References](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#references)
 
-# Usage
+## Features
+- This Matlab tool has the options in selecting the solver type through the equations either by 'Darcy-Weisbach' or by 'Hazen-Williams'. 
+- Besides, another feature in the tool options allows users to select through various algorithms to calculate the Darcy-Weisbach friction coefficient *f*, limited to algorithms by 'Moody', 'Colebrook-White', 'Clamond', 'Swamee-Jain', 'Zigrang-Sylvester', and 'Haaland'. Other algorithms can be found in another repository [mariocastrogama/Colebrook-White](https://github.com/mariocastrogama/Colebrook-White)!
+- Aside from the main Matlab tool, two other converter tools are also given to obtain the Hazen-Williams roughness coefficient *C* as a non-steady variable by a function of (i) the absolute roughness of the pipe (also known as ε - eps) and (ii) the Darcy-Weisbach friction factor *f*.
+- The limitations for use of equations and algorithms are given in the code (e.g. the operational limitations in using Hazen-Williams).
+
+## Usage
 Example scripts are given to illustrate how to use the Matlab tools developed. 
 
 ### How2Use the Pressure Loss Calculator Tool
@@ -44,21 +44,21 @@ Example scripts are given to illustrate how to use the Matlab tools developed.
 ### Other Matlab File in Use
 4. [XSteam.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/XSteam.m): Matlab tool used to obtain the thermodynamic properties of water in calculations. This original work is taken from [Holmgren M. MathWorks File Exchange: XSteam.m (link)](https://nl.mathworks.com/matlabcentral/fileexchange/9817-x-steam--thermodynamic-properties-of-water-and-steam). 
 
-# License
+## License
 You are free to use, modify and distribute the code as long as authorship is properly acknowledged. The same applies for the original works 'XSteam.m' by Holmgren M. and 'colebrook.m' by Clamond D, this repository Matlab tools make use of.
 
-# Acknowledgement 
+## Acknowledgement 
 We would like to acknowledge all of the open-source minds in general for their willing of share (as apps or comments/answers in forums), which has encouraged our department to publish our Matlab tools developed during the PhD study here in GitHub.
 
 This repository *pressure_loss_calculator-Matlab* makes use of other original open-source projects: 
 - [XSteam by Holmgren M.](https://nl.mathworks.com/matlabcentral/fileexchange/9817-x-steam--thermodynamic-properties-of-water-and-steam) | Author Description: XSteam provides accurate steam and water properties from 0 - 1000 bar and from 0 - 2000 deg C according to the standard IAPWS IF-97. For accuracy of the functions in different regions see IF-97 (www.iapws.org).
 - [colebrook.m by Clamond D.](https://nl.mathworks.com/matlabcentral/fileexchange/21990-colebrook-m?focused=5105324&tab=function) | Author Description: fast, accurate and robust computation of the Darcy-Weisbach friction factor F according to the Colebrook equation. 
 
-# How2Cite:
+## How2Cite:
 1. Tol, Hİ. pressure_loss_calculator-Matlab. GitHub Repository 2018; https://github.com/DrTol/pressure_loss_calculator-Matlab/
 2. Tol, Hİ. District heating in areas with low energy houses - Detailed analysis of district heating systems based on low temperature operation and use of renewable energy. PhD Supervisors: Svendsen S. & Nielsen SB. Technical University of Denmark 2015; 204 p. ISBN: 9788778773685.
 
-# References
+## References
 - Sanks RL. Flow in conduits. In: Sanks RL, Tchobanoglous G, Bosserman BE, Jones GM, editors. Pumping station design. Boston, USA: Butterworth-Heinemann; 1998. p. 33-39.
 - Clamond D. Efficient resolution of the colebrook equation. Industrial & Engineering Chemistry Research 2009;48: p. 3665-3671.
 - Clamond D. colebrook.m - Efficient resolution of the Colebrook-White equation (v1.0). MathWorks File Exchange: https://nl.mathworks.com/matlabcentral/fileexchange/21990-colebrook-m?focused=5105324&tab=function
