@@ -23,11 +23,10 @@ Example scripts are given to illustrate how to use the tools developed.
 3. **Darcy-WeisbachFrictionFactors**: Various Matlab functions can be found for various algorithms, details given below. How2Use each of them can be found in the last section (within switch-case there) of the [PressureLossCalculator.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/PressureLossCalculator.m). 
    - [f_Moody.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Moody.m): as based on Moody correlation.
    - [f_ColebrookWhite.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_ColebrookWhite.m): Iterative solution of the implicit Colebrook's friction factor expression.
-   - [f_Clamond.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Clamond.m): Explicit approximation of the Colebrook's friction factor expression by Clamond D. 
-   - [f_Haaland.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Haaland.m): Explicit approximation of the Colebrook's friction factor expression by Haaland SE. 
-   - [f_SwameeJain.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_SwameeJain.m): Explicit approximation of the Colebrook's friction factor expression by Swamee P&Jain A.
-   - [f_ZigrangSylvester.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_ZigrangSylvester.m): Explicit approximation of the Colebrook's friction factor expression by Zigrang DJ&Sylvester ND.
-   
+   - [f_Clamond.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Clamond.m): The explicit approximation (of the Colebrook's friction factor expression) by Clamond D. 
+   - [f_Haaland.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Haaland.m): Another explicit approximation by Haaland SE. 
+   - [f_SwameeJain.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_SwameeJain.m): Another explicit approximation by Swamee P&Jain A.
+   - [f_ZigrangSylvester.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_ZigrangSylvester.m): Another explicit approximation by Zigrang DJ&Sylvester ND.
 
 # Contributing 
 Describe how other developers can help
