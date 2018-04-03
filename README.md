@@ -32,7 +32,7 @@ Example scripts are given to illustrate how to use the tools developed.
 4. [XSteam.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/XSteam.m): Matlab tool used to obtain the thermodynamic properties of water in calculations. This original work is taken from [Holmgren M. MathWorks File Exchange: XSteam.m (link)](https://nl.mathworks.com/matlabcentral/fileexchange/9817-x-steam--thermodynamic-properties-of-water-and-steam). 
 
 # License
-You are free to use, modify and distribute the code as long as authorship is properly acknowledged. The same applies for the original works 'XSteam.m' by Holmgren M. and 'colebrook.m' by Clamond D.
+You are free to use, modify and distribute the code as long as authorship is properly acknowledged. The same applies for the original works 'XSteam.m' by Holmgren M. and 'colebrook.m' by Clamond D, this repository Matlab tools make use of.
 
 # Acknowledgement 
 We would like to acknowledge all of the open-source minds in general for their willing of share (as apps or comments/answers in forums), which has encouraged our department to publish our Matlab tools developed during the PhD study here in GitHub.
