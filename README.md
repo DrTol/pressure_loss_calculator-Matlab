@@ -20,6 +20,7 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
 # How2Use
 Example scripts are given to illustrate how to use the tools developed. 
 -  [examplePressureLoss.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/examplePressureLoss.m): shows how to use the main Matlab tool **PressureLossCalculator.m** with a given data for a pipe segment with different combinations of the solver and the Darcy-Weisbach friction factor algorithms (details given in [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)). 
+- [exampleRougnessConverters.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/exampleRougnessConverters.m): shows how to use the Matlab converter tools with bi-directional examples of use (e.g. conversion of relative pipe roughness (eps/D) to Hazen-Wiliams rougness coefficient (C) as well as conversion from C to eps/D).
 
 
 # Contributing 
