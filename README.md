@@ -11,6 +11,10 @@ This Matlab tool is a by-product from the PhD study about the 4th generation (4G
 
 ## Table of Contents
   - [Usage](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#usage)
+    - [How2Use the Pressure loss Calculator Tool](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2use-the-pressure-loss-calculator-tool)
+    - [How2Use the Converter Tools](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2use-the-converter-tools)
+    - [Darcy-Weisbach Friction Factor Functions](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#darcy-weisbach-friction-factor-functions)
+    - [Other Matlab File in Use](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#other-matlab-file-in-use)
   - [License](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#license)
   - [Acknowledgement](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#acknowledgement)
   - [How2Cite](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2cite)
