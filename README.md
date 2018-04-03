@@ -22,8 +22,8 @@ Example scripts are given to illustrate how to use the tools developed.
 1. [examplePressureLoss.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/examplePressureLoss.m): shows how to use the main Matlab tool [PressureLossCalculator.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/PressureLossCalculator.m) with a given data for a pipe segment with different combinations of the solver and the Darcy-Weisbach friction factor algorithms (details given in [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)).
 
 2. [exampleRougnessConverters.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/exampleRougnessConverters.m): shows how to use the Matlab converter tools with bi-directional examples of use (e.g. conversion of relative pipe roughness (eps/D) to Hazen-Wiliams rougness coefficient (C) as well as conversion from C to eps/D). There are two converter tools: 
-- [tConverterDW2HW.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/tConverterDW2HW.m): Bi-directional converter between the Hazen-Williams roughness coefficient (C) and the Darcy-Weisbach friction factor (f). 
-- [tConverterRoughness.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/tConverterRoughness.m): Bi-directional converter between the pipe relative roughness (eps/D) to Hazen-Williams roughness coefficient (C).
+   - [tConverterDW2HW.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/tConverterDW2HW.m): Bi-directional converter between the Hazen-Williams roughness coefficient (C) and the Darcy-Weisbach friction factor (f). 
+   - [tConverterRoughness.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/tConverterRoughness.m): Bi-directional converter between the pipe relative roughness (eps/D) to Hazen-Williams roughness coefficient (C).
 
 
 # Contributing 
