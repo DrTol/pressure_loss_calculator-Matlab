@@ -16,14 +16,14 @@ T_HW=10;        % Water temperature for Hazen-Williams equation     [°C]
 
 %% Darcy-Weisbach
 % Pressure loss by use of Darcy-Weisbach via solving implicit Colebrook-White algorithm
-plDW_CW=PressureLossCalculator(L,Din,mFlow,T_DW,aRou,'Solver','Darcy-Weisbach','fAlgorithm','Colebrook-White','fTol',0.001,'MaxIterations',2000)
+plDW_ColebrookWhite=PressureLossCalculator(L,Din,mFlow,T_DW,aRou,'Solver','Darcy-Weisbach','fAlgorithm','Colebrook-White','fTol',0.001,'MaxIterations',2000)
 
 % Pressure loss by use of Darcy-Weisbach via Clamond algorithm
-plDW_Cl=PressureLossCalculator(L,Din,mFlow,T_DW,aRou,'Solver','Darcy-Weisbach','fAlgorithm','Clamond')
+plDW_Clamond=PressureLossCalculator(L,Din,mFlow,T_DW,aRou,'Solver','Darcy-Weisbach','fAlgorithm','Clamond')
 
 % Pressure loss by use of Darcy-Weisbach via Zigrang-Sylvester algorithm
-plDW_ZS=PressureLossCalculator(L,Din,mFlow,T_DW,aRou,'Solver','Darcy-Weisbach','fAlgorithm','Zigrang-Sylvester')
+plDW_ZigrangSylvester=PressureLossCalculator(L,Din,mFlow,T_DW,aRou,'Solver','Darcy-Weisbach','fAlgorithm','Zigrang-Sylvester')
 
 %% Hazen-Williams
 % Pressure loss by use of Hazen-Williams
-plHW=PressureLossCalculator(L,Din,mFlow,T_HW,aRou,'Solver','Hazen-Williams')
+plHazenWilliams=PressureLossCalculator(L,Din,mFlow,T_HW,aRou,'Solver','Hazen-Williams')
