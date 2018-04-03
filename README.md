@@ -23,18 +23,24 @@ Example scripts are given to illustrate how to use the tools developed.
 3. **Darcy-WeisbachFrictionFactors**: Various Matlab functions can be found for various algorithms, details given below. How2Use each of them can be found in the last section (within switch-case there) of the [PressureLossCalculator.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/PressureLossCalculator.m). 
    - [f_Moody.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Moody.m): as based on Moody correlation.
    - [f_ColebrookWhite.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_ColebrookWhite.m): Iterative solution of the implicit Colebrook's friction factor expression.
-   - [f_Clamond.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Clamond.m): The explicit approximation (of the Colebrook's friction factor expression) by Clamond D. 
+   - [f_Clamond.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Clamond.m): The explicit approximation (of the Colebrook's friction factor expression) by Clamond D. This original work is taken from [Clamond D. Mathworks File Exchange: colebrook.m (link)](https://nl.mathworks.com/matlabcentral/fileexchange/21990-colebrook-m?focused=5105324&tab=function).
    - [f_Haaland.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_Haaland.m): Another explicit approximation by Haaland SE. 
    - [f_SwameeJain.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_SwameeJain.m): Another explicit approximation by Swamee P&Jain A.
    - [f_ZigrangSylvester.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/f_ZigrangSylvester.m): Another explicit approximation by Zigrang DJ&Sylvester ND.
+4. [XSteam.m](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/XSteam.m): Matlab tool used to obtain the thermodynamic properties of water in calculations. This original work is taken from [Holmgren M. MathWorks File Exchange: XSteam.m (link)](https://nl.mathworks.com/matlabcentral/fileexchange/9817-x-steam--thermodynamic-properties-of-water-and-steam). 
 
 # Contributing 
 Describe how other developers can help
 
-# Credits
 # License
+You are free to use, modify and distribute the code as long as authorship is properly acknowledged. The same applies for the original works 'XSteam.m' by Holmgren M. and 'colebrook.m' by Clamond D.
+
 # Acknowledgement 
-XSteam, Clamond, Matlab forum sites
+We would like to acknowledge all of the open-source minds in general for their willing of share (as apps or comments/answers in forums), which has encouraged our department to publish our Matlab tools developed during the PhD study here in GitHub.
+
+This repository *pressure_loss_calculator-Matlab* makes use of other original open-source projects: 
+- [XSteam by Holmgren M.](https://nl.mathworks.com/matlabcentral/fileexchange/9817-x-steam--thermodynamic-properties-of-water-and-steam) | Author Description: XSteam provides accurate steam and water properties from 0 - 1000 bar and from 0 - 2000 deg C according to the standard IAPWS IF-97. For accuracy of the functions in different regions see IF-97 (www.iapws.org).
+- [colebrook.m by Clamond D.](https://nl.mathworks.com/matlabcentral/fileexchange/21990-colebrook-m?focused=5105324&tab=function) | Author Description: fast, accurate and robust computation of the Darcy-Weisbach friction factor F according to the Colebrook equation. 
 
 # How2Cite:
 Tol, Hİ. pressure_loss_calculator-Matlab. GitHub Repository 2018; https://github.com/DrTol/pressure_loss_calculator-Matlab/
@@ -43,6 +49,7 @@ Tol, Hİ. District heating in areas with low energy houses - Detailed analysis o
 # References
 - Sanks RL. Flow in conduits. In: Sanks RL, Tchobanoglous G, Bosserman BE, Jones GM, editors. Pumping station design. Boston, USA: Butterworth-Heinemann; 1998. p. 33-39.
 - Clamond D. Efficient resolution of the colebrook equation. Industrial & Engineering Chemistry Research 2009;48: p. 3665-3671.
+- Clamond D. colebrook.m - Efficient resolution of the Colebrook-White equation (v1.0). MathWorks File Exchange: https://nl.mathworks.com/matlabcentral/fileexchange/21990-colebrook-m?focused=5105324&tab=function
 - Diskin MH. The limits of applicability of the Hazen-Williams formula. La Houille Blanche 1960;6: p. 720-726.
 - Liou CP. Limitations and proper use of the Hazen-Williams equation. Journal of Hydraulic Engineering 1998; 124(9): p. 951-954.
 - Colebrook CF. & White CM. Experiments with fluid friction in roughened pipes. Proceedings of the Royal Society A - Mathematical, Physical & Engineering Sciences 1937; p. 367-381.
