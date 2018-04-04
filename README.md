@@ -70,4 +70,4 @@ This repository *pressure_loss_calculator-Matlab* makes use of other original op
 - Niazkar M, Talebbeydokhti N & Afzali SH. Relationship between Hazen-William coefficient and Colebrook-White friction factor: Application in water network analysis. European Water 2017; 58: p. 513-520.
 - Asker M, Turgut OE & Coban MT. A review of non iterative friction factor correlations for the calculation of pressure drop in pipes. Bitlis Eren Univ J Sci & Technol 2014; 4(1): 8 p. 
 - Genić S, Arandjelović I, Kolendić P, Jarić M, Budimir N & Genić M. A Review of explicit approximations of Colebrook’s equation. FME Transactions 2011; 39: p. 67-71. 
-Holmgren M. X Steam, Thermodynamic properties of water and steam (v1.0). MathWorks File Exchange: https://nl.mathworks.com/matlabcentral/fileexchange/9817-x-steam--thermodynamic-properties-of-water-and-steam
+- Holmgren M. X Steam, Thermodynamic properties of water and steam (v1.0). MathWorks File Exchange: https://nl.mathworks.com/matlabcentral/fileexchange/9817-x-steam--thermodynamic-properties-of-water-and-steam
