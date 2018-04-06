@@ -23,7 +23,7 @@ err=10;     % Iteration error
 IterNum=0;  % Iteration steps number
 
 %  Initial estimate 
-x0=f_Clamond(Re,aRou/D);
+x0=f_SwameeJain(Re,aRou/D);
 
 % Fasten your seat belts, iteration starts
 while err>fTol & IterNum<MaxIter | isnan(x1) | ~isreal(x1) | isinf(x1)
