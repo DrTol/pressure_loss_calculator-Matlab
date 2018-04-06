@@ -24,9 +24,6 @@ IterNum=0;  % Iteration steps number
 
 %  Initial estimate 
 x0=f_Clamond(Re,aRou/D);
-x1=x0; 
-
-xStart=tic;             % Starting of the elapsed time
 
 % Fasten your seat belts, iteration starts
 while err>fTol & IterNum<MaxIter | isnan(x1) | ~isreal(x1) | isinf(x1)
@@ -37,6 +34,5 @@ while err>fTol & IterNum<MaxIter | isnan(x1) | ~isreal(x1) | isinf(x1)
 end
 
 f=x1;
-tElapsed=toc(xStart);   % End of the elapsed time
 
 end
