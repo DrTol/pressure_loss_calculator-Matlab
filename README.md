@@ -1,6 +1,8 @@
 # Pressure Loss Calculator Tool - Matlab (SI Units)
 A Matlab tool calculating the friction pressure loss (head loss) in circular pipes with full flow water, as well useful to compare different solver types or friction factor algorithms (details given in [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)). 
 
+Excel functions (also as add-in) for the same calculator/s can be found in [pressure_loss_calculator-Excel.git](https://github.com/DrTol/pressure_loss_calculator-Excel.git).
+
 ## Table of Contents
   - [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)
   - [Usage](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#usage)
