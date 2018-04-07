@@ -1,8 +1,6 @@
 # Pressure Loss Calculator Tool - Matlab (SI Units)
 A Matlab tool calculating the friction pressure loss (head loss) in circular pipes with full flow water, as well useful to compare different solver types or friction factor algorithms (details given in [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)). 
 
-This Matlab tool is a by-product from the PhD study about the 4th generation (4G) low-temperature district heating systems in supply to low-energy houses, carried out by Hakan İbrahim Tol, PhD under the supervision of Prof. Dr. Svend Svendsen and Ass. Prof. Susanne Balslev Nielsen at the Technical University of Denmark (DTU). The PhD topic: "District heating in areas with low energy houses - Detailed analysis of district heating systems based on low temperature operation and use of renewable energy" - [free download by DTU (link)](http://orbit.dtu.dk/en/publications/district-heating-in-areas-with-low-energy-houses(9c056db5-8e76-425f-92ca-c072b642b6b3).html) or [by ResearchGate (link)](https://www.researchgate.net/publication/276266953_District_heating_in_areas_with_low_energy_houses_-_Detailed_analysis_of_district_heating_systems_based_on_low_temperature_operation_and_use_of_renewable_energy).
-
 ## Table of Contents
   - [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)
   - [Usage](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#usage)
@@ -55,6 +53,8 @@ We would like to acknowledge all of the open-source minds in general for their w
 This repository *pressure_loss_calculator-Matlab* makes use of other original open-source projects: 
 - [XSteam by Holmgren M.](https://nl.mathworks.com/matlabcentral/fileexchange/9817-x-steam--thermodynamic-properties-of-water-and-steam) | Author Description: XSteam provides accurate steam and water properties from 0 - 1000 bar and from 0 - 2000 deg C according to the standard IAPWS IF-97. For accuracy of the functions in different regions see IF-97 (www.iapws.org).
 - [colebrook.m by Clamond D.](https://nl.mathworks.com/matlabcentral/fileexchange/21990-colebrook-m?focused=5105324&tab=function) | Author Description: fast, accurate and robust computation of the Darcy-Weisbach friction factor F according to the Colebrook equation. 
+
+This Matlab tool is a by-product from the PhD study about the 4th generation (4G) low-temperature district heating systems in supply to low-energy houses, carried out by Hakan İbrahim Tol, PhD under the supervision of Prof. Dr. Svend Svendsen and Ass. Prof. Susanne Balslev Nielsen at the Technical University of Denmark (DTU). The PhD topic: "District heating in areas with low energy houses - Detailed analysis of district heating systems based on low temperature operation and use of renewable energy" - [free download by DTU (link)](http://orbit.dtu.dk/en/publications/district-heating-in-areas-with-low-energy-houses(9c056db5-8e76-425f-92ca-c072b642b6b3).html) or [by ResearchGate (link)](https://www.researchgate.net/publication/276266953_District_heating_in_areas_with_low_energy_houses_-_Detailed_analysis_of_district_heating_systems_based_on_low_temperature_operation_and_use_of_renewable_energy).
 
 ## How2Cite:
 1. Tol, Hİ. pressure_loss_calculator-Matlab. GitHub Repository 2018; https://github.com/DrTol/pressure_loss_calculator-Matlab/
