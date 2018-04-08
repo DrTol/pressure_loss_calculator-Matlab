@@ -4,16 +4,16 @@ A Matlab tool calculating the friction pressure loss (head loss) in circular pip
 Excel functions (also as add-in) for the same calculator/s can be found in [pressure_loss_calculator-Excel.git](https://github.com/DrTol/pressure_loss_calculator-Excel.git).
 
 ## Table of Contents
-  - [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)
-  - [Usage](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#usage)
-    - [How2Use the Pressure Loss Calculator Tool](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2use-the-pressure-loss-calculator-tool)
-    - [How2Use the Converter Tools](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2use-the-converter-tools)
-    - [Darcy-Weisbach Friction Factor Functions](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#darcy-weisbach-friction-factor-functions)
-    - [Other Matlab Files in Use](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#other-matlab-files-in-use)
-  - [License](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#license)
-  - [Acknowledgement](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#acknowledgement)
-  - [How2Cite](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2cite)
-  - [References](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#references)
+- [Features](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#features)
+- [Usage](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#usage)
+  - [How2Use the Pressure Loss Calculator Tool](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2use-the-pressure-loss-calculator-tool)
+  - [How2Use the Converter Tools](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2use-the-converter-tools)
+  - [Darcy-Weisbach Friction Factor Functions](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#darcy-weisbach-friction-factor-functions)
+  - [Other Matlab Files in Use](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#other-matlab-files-in-use)
+- [License](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#license)
+- [Acknowledgement](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#acknowledgement)
+- [How2Cite](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#how2cite)
+- [References](https://github.com/DrTol/pressure_loss_calculator-Matlab/blob/master/README.md#references)
 
 ## Features
 - This Matlab tool has the options in selecting the solver type through the equations either by 'Darcy-Weisbach' or by 'Hazen-Williams'. 
